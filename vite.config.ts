@@ -7,5 +7,5 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
-  base:"/lucas_feliciano"
+  base:"/lucas_feliciano/",
 });
