@@ -4,16 +4,14 @@ import { BookOpen, Briefcase, GraduationCap, Languages } from 'lucide-react';
 function Curriculum() {
   const skills = {
     programming: [
-      { name: 'JavaScript', level: 90 },
-      { name: 'TypeScript', level: 85 },
-      { name: 'Python', level: 80 },
-      { name: 'Java', level: 75 }
+      { name: 'Python', level: 75 },
+      { name: 'JavaScript', level: 50 },
+      { name: 'Java', level: 30 }
     ],
     technologies: [
-      { name: 'React', level: 88 },
-      { name: 'Node.js', level: 82 },
-      { name: 'Git', level: 85 },
-      { name: 'Docker', level: 70 }
+      { name: 'Git', level: 70 },
+      { name: 'Flask', level: 60 },
+      { name: 'MySQL', level: 30 },
     ],
     languages: [
       { name: 'Portuguese', level: 100, native: true },
@@ -79,9 +77,17 @@ function Curriculum() {
         <div className="bg-white dark:bg-gray-800 rounded-xl shadow-sm p-6 mb-4 hover:shadow-lg transition-shadow duration-300">
           <h3 className="text-xl font-semibold mb-2 text-gray-900 dark:text-white">Software Engineering</h3>
           <p className="text-gray-600 dark:text-gray-300">FIAP</p>
-          <p className="text-gray-500 dark:text-gray-400">2023 - Present</p>
+          <p className="text-gray-500 dark:text-gray-400">2024 - Present</p>
           <p className="text-gray-700 dark:text-gray-300 mt-3">
-            Relevant coursework: Data Structures, Algorithms, Web Development, Database Management
+            Relevant coursework: Web Development, Algorithms, Agile Methodology, Database Management          </p>
+        </div>
+
+        <div className="bg-white dark:bg-gray-800 rounded-xl shadow-sm p-6 mb-4 hover:shadow-lg transition-shadow duration-300">
+          <h3 className="text-xl font-semibold mb-2 text-gray-900 dark:text-white">Software Programming</h3>
+          <p className="text-gray-600 dark:text-gray-300">ALURA</p>
+          <p className="text-gray-500 dark:text-gray-400">2024 - Present</p>
+          <p className="text-gray-700 dark:text-gray-300 mt-3">
+            Various programming languages ​​and technologies, data science and DevOps
           </p>
         </div>
       </section>
@@ -147,22 +153,22 @@ function Curriculum() {
         
         <div className="bg-white dark:bg-gray-800 rounded-xl shadow-sm p-6 hover:shadow-lg transition-shadow duration-300">
           <div className="mb-6 pb-6 border-b border-gray-100 dark:border-gray-700">
-            <h3 className="text-xl font-semibold mb-2 text-gray-900 dark:text-white">Software Developer Intern</h3>
-            <p className="text-gray-600 dark:text-gray-300">Company Name</p>
-            <p className="text-gray-500 dark:text-gray-400">June 2023 - Present</p>
+            <h3 className="text-xl font-semibold mb-2 text-gray-900 dark:text-white">Software Developer - Scientific Initiation - LibrasFlow</h3>
+            <p className="text-gray-600 dark:text-gray-300"></p>
+            <p className="text-gray-500 dark:text-gray-400">June 2024 - February 2025</p>
             <ul className="mt-3 space-y-2 text-gray-700 dark:text-gray-300">
               <li className="flex items-center gap-2">
                 <span className="w-1.5 h-1.5 bg-blue-600 dark:bg-blue-400 rounded-full"></span>
-                Developed and maintained web applications using React and Node.js
+                Developed and maintained applications using Python and other tools
               </li>
               <li className="flex items-center gap-2">
                 <span className="w-1.5 h-1.5 bg-blue-600 dark:bg-blue-400 rounded-full"></span>
-                Collaborated with senior developers on various projects
+                Collaborated with senior developers on the project
               </li>
               <li className="flex items-center gap-2">
                 <span className="w-1.5 h-1.5 bg-blue-600 dark:bg-blue-400 rounded-full"></span>
                 Implemented responsive designs and improved user experience
-              </li>
+                </li>
             </ul>
           </div>
         </div>

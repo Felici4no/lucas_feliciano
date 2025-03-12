@@ -4,21 +4,22 @@ import { ExternalLink, Github } from 'lucide-react';
 function Projects() {
   const projects = [
     {
-      title: "Project 1",
-      description: "A brief description of your first project and what technologies you used.",
+      title: "SudokuGen",
+      description: "A Sudoku generator that creates unique puzzles at various difficulty levels. Perfect for logic enthusiasts and developers looking to integrate Sudoku challenges into their projects.",
       image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=600",
-      technologies: ["React", "TypeScript", "Node.js"],
-      github: "https://github.com",
-      demo: "https://example.com"
+      technologies: ["Python"],
+      github: "https://github.com/Felici4no/SudokuGen",
+      demo: "https://github.com/Felici4no/SudokuGen"
     },
     {
-      title: "Project 2",
-      description: "Description of another project showcasing different skills and achievements.",
-      image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80&w=600",
-      technologies: ["Python", "Django", "PostgreSQL"],
-      github: "https://github.com",
-      demo: "https://example.com"
+      title: "PyCriptoNita",
+      description: "PyCriptoNita is a simple Python script designed to encrypt and decrypt text messages using a randomly generated substitution cipher .",
+      image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=600",
+      technologies: ["Python"],
+      github: "https://github.com/Felici4no/PyCriptoNita",
+      demo: "https://github.com/Felici4no/PyCriptoNita"
     },
+ 
   ];
 
   return (

@@ -17,10 +17,10 @@ function Contact() {
             <div>
               <p className="text-sm text-gray-500 dark:text-gray-400">Email</p>
               <a 
-                href="mailto:your.email@example.com" 
+                href="mailto:lucas.feliciano.eng.2003@gmail.com" 
                 className="text-gray-900 dark:text-white hover:text-blue-600 dark:hover:text-blue-400"
               >
-                your.email@example.com
+                lucas.feliciano.eng.2003@gmail.com
               </a>
             </div>
           </div>
@@ -32,10 +32,10 @@ function Contact() {
             <div>
               <p className="text-sm text-gray-500 dark:text-gray-400">Phone</p>
               <a 
-                href="tel:+1234567890" 
+                href="tel:+55 11 95447-1933" 
                 className="text-gray-900 dark:text-white hover:text-blue-600 dark:hover:text-blue-400"
               >
-                +1 (234) 567-890
+                +55 11 95447-1933
               </a>
             </div>
           </div>
@@ -54,7 +54,7 @@ function Contact() {
             <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">Social Media</h3>
             <div className="flex gap-4">
               <a 
-                href="https://github.com" 
+                href="https://github.com/Felici4no" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="bg-blue-100 dark:bg-blue-900/30 p-3 rounded-lg hover:bg-blue-200 dark:hover:bg-blue-900/50 transition-colors"
@@ -62,7 +62,7 @@ function Contact() {
                 <Github className="w-6 h-6 text-blue-600 dark:text-blue-400" />
               </a>
               <a 
-                href="https://linkedin.com" 
+                href="https://www.linkedin.com/in/lucas-feliciano-software/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="bg-blue-100 dark:bg-blue-900/30 p-3 rounded-lg hover:bg-blue-200 dark:hover:bg-blue-900/50 transition-colors"

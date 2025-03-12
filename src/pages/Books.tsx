@@ -16,28 +16,18 @@ function Books() {
     {
       title: "Clean Code",
       author: "Robert C. Martin",
-      coverUrl: "https://images.unsplash.com/photo-1532012197267-da84d127e765?auto=format&fit=crop&q=80&w=400",
-      rating: 5,
-      completed: true,
-      completedDate: "2024-02-15",
-      review: "A fundamental book that changed how I think about writing code. The principles taught here are timeless."
-    },
-    {
-      title: "Design Patterns",
-      author: "Erich Gamma et al.",
-      coverUrl: "https://images.unsplash.com/photo-1589998059171-988d887df646?auto=format&fit=crop&q=80&w=400",
-      rating: 4,
-      completed: true,
-      completedDate: "2024-01-20",
-      review: "Essential knowledge for any software developer. Complex topics explained clearly."
-    },
-    {
-      title: "Pragmatic Programmer",
-      author: "Andrew Hunt, David Thomas",
-      coverUrl: "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&q=80&w=400",
+      coverUrl: "https://m.media-amazon.com/images/I/51E2055ZGUL._AC_UF894,1000_QL80_.jpg",
       rating: 5,
       completed: false,
-      review: "Currently reading. Great practical advice for software development."
+      review: "A fundamental book that changed how I think about writing code. The principles taught here are timeless."
+    },{
+      title: "The Abolition of Man",
+      author: "C. S. Lewis",
+      coverUrl: "https://loja.cidadederefugio.com.br/cdn/shop/files/c2b41f0db249f726c9c3c3a6fc4a4def-1.jpg?v=1708988784",
+      rating: 5,
+      completed: true,
+      completedDate: "2025-02-15",
+      review: "The Abolition of Man is a book by C. S. Lewis in which the Irish author develops a defense of the concept of objective value and natural law."
     }
   ];
 

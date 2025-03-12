@@ -6,7 +6,7 @@ function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-[80vh] text-center">
       <img
-        src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?auto=format&fit=crop&q=80&w=200&h=200"
+        src="https://media.licdn.com/dms/image/v2/D4D03AQE96D4Gs5ECTw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1721184527351?e=1747267200&v=beta&t=biLDKYJp3t_wDAliI_YS_wRdPAHIiWMiPxd7_g3K2wk"
         alt="Profile"
         className="w-48 h-48 rounded-full mb-8 object-cover shadow-lg"
       />
@@ -14,7 +14,7 @@ function Home() {
         Lucas Feliciano
       </h1>
       <p className="text-xl text-gray-600 dark:text-gray-300 mb-8 max-w-2xl">
-        Software Engineering Student at FIAP | Passionate about creating innovative solutions and learning new technologies
+      Software Engineering Student at FIAP | Passionate about creating innovative solutions and learning new technologies
       </p>
       <div className="flex gap-4">
         <Link

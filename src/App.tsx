@@ -34,7 +34,7 @@ function App() {
           <div className="container mx-auto px-6 py-4">
             <div className="flex items-center justify-between">
               <Link to="/" className="text-2xl font-bold text-gray-800 dark:text-white">
-                Portfolio
+              Felici4no
               </Link>
 
               {/* Desktop Navigation */}
@@ -99,18 +99,18 @@ function App() {
         <footer className="bg-white dark:bg-gray-800 shadow-sm mt-12">
           <div className="container mx-auto px-6 py-8">
             <div className="flex justify-center space-x-6">
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100">
+              <a href="https://github.com/Felici4no" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100">
                 <Github className="w-6 h-6" />
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100">
+              <a href="https://www.linkedin.com/in/lucas-feliciano-software/" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100">
                 <Linkedin className="w-6 h-6" />
               </a>
-              <a href="mailto:your.email@example.com" className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100">
+              <a href="mailto:lucas.feliciano.eng.2003@gmail.com" className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100">
                 <Mail className="w-6 h-6" />
               </a>
             </div>
             <p className="text-center text-gray-600 dark:text-gray-400 mt-4">
-              © 2025 Your Name. All rights reserved.
+              © 2025 Lucas Feliciano - Felici4no. All rights reserved.
             </p>
           </div>
         </footer>
