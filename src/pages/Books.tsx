@@ -12,24 +12,74 @@ interface BookType {
 }
 
 function Books() {
+  // Novo conteúdo dentro do array "books" para refletir sua leitura real:
+
   const books: BookType[] = [
     {
-      title: "Clean Code",
-      author: "Robert C. Martin",
-      coverUrl: "https://m.media-amazon.com/images/I/51E2055ZGUL._AC_UF894,1000_QL80_.jpg",
-      rating: 5,
+      title: "Meditações",
+      author: "Marco Aurélio",
+      coverUrl: "https://m.media-amazon.com/images/I/612B0id4gNL._AC_UF1000,1000_QL80_.jpg",
+      rating: 0,
       completed: false,
-      review: "A fundamental book that changed how I think about writing code. The principles taught here are timeless."
-    },{
+      review: "Pretendo mergulhar nesta obra filosófica assim que terminar 'A Abolição do Homem'."
+    },
+    {
       title: "The Abolition of Man",
       author: "C. S. Lewis",
-      coverUrl: "https://loja.cidadederefugio.com.br/cdn/shop/files/c2b41f0db249f726c9c3c3a6fc4a4def-1.jpg?v=1708988784",
+      coverUrl: "https://m.media-amazon.com/images/I/91xhBqPGLtL._AC_UF1000,1000_QL80_.jpg",
       rating: 5,
       completed: true,
       completedDate: "2025-02-15",
-      review: "The Abolition of Man is a book by C. S. Lewis in which the Irish author develops a defense of the concept of objective value and natural law."
+      review: "Defende a moral objetiva de forma brilhante. Filosofia e literatura em perfeita harmonia."
+    },
+    {
+      title: "Essencialismo",
+      author: "Greg McKeown",
+      coverUrl: "https://m.media-amazon.com/images/I/71HuZRl-XeL.jpg",
+      rating: 5,
+      completed: true,
+      completedDate: "2024-06-12",
+      review: "Um livro transformador que me ensinou o poder de dizer não e focar no que realmente importa."
+    },
+    {
+      title: "Arrume a Sua Cama",
+      author: "William H. McRaven",
+      coverUrl: "https://m.media-amazon.com/images/I/81C7jAnjS3L.jpg",
+      rating: 4,
+      completed: true,
+      completedDate: "",
+      review: "Simples, direto e inspirador. Pequenas ações podem gerar grandes mudanças."
+    },
+    {
+      title: "Minha História",
+      author: "Michelle Obama",
+      coverUrl: "https://m.media-amazon.com/images/I/81Ed9yMQWIL._AC_UF1000,1000_QL80_.jpg",
+      rating: 4,
+      completed: true,
+      completedDate: "",
+      review: "Um relato poderoso de força, identidade e propósito. Extremamente inspirador."
+    },
+    {
+      title: "Em Busca de Mim",
+      author: "Viola Davis",
+      coverUrl: "https://m.media-amazon.com/images/I/91J7EVQy1jL.jpg",
+      rating: 5,
+      completed: true,
+      completedDate: "",
+      review: "Autêntico e cru, um testemunho de superação e empoderamento. Me tocou profundamente."
+    },
+    {
+      title: "The Subtle Art of Not Giving a F*ck",
+      author: "Mark Manson",
+      coverUrl: "https://m.media-amazon.com/images/I/71QKQ9mwV7L._AC_UF1000,1000_QL80_.jpg",
+      rating: 4,
+      completed: true,
+      completedDate: "",
+      review: "Apesar do título provocativo, é um livro profundo sobre valores, limites e a importância de viver de forma autêntica."
     }
   ];
+  
+
 
   return (
     <div className="max-w-4xl mx-auto">

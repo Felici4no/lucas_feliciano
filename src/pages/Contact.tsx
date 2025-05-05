@@ -20,7 +20,7 @@ function Contact() {
                 href="mailto:lucas.feliciano.eng.2003@gmail.com" 
                 className="text-gray-900 dark:text-white hover:text-blue-600 dark:hover:text-blue-400"
               >
-                lucas.feliciano.eng.2003@gmail.com
+                Click here
               </a>
             </div>
           </div>

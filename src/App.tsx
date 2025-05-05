@@ -1,6 +1,7 @@
 import React from 'react';
 import { HashRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import { Github, Linkedin, Mail, Menu, Moon, Sun, X } from 'lucide-react';
+import LetterboxdIcon from './icons/LetterboxdIcon';
 import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
@@ -19,12 +20,29 @@ function App() {
     return true;
   });
 
+  const [flipped, setFlipped] = React.useState(false);
+
+  React.useEffect(() => {
+    const interval = setInterval(() => {
+      setFlipped((prev) => !prev);
+    }, 3000); // alterna a cada 3 segundos
+
+    return () => clearInterval(interval);
+  }, []);
+
+  
+
+
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
   
   const toggleDarkMode = () => {
     setIsDark(!isDark);
     document.documentElement.classList.toggle('dark');
+
+
   };
+
+  
 
   return (
     <Router>
@@ -33,9 +51,24 @@ function App() {
         <nav className="bg-white dark:bg-gray-800 shadow-sm">
           <div className="container mx-auto px-6 py-4">
             <div className="flex items-center justify-between">
-              <Link to="/" className="text-2xl font-bold text-gray-800 dark:text-white">
-              Felici4no
-              </Link>
+            <div className="relative w-[200px] h-[30px] perspective">
+              <div className={`w-full h-full transition-transform duration-700 transform-style-preserve-3d ${flipped ? 'rotate-x-180' : ''}`}>
+                <Link
+                  to="/"
+                  className="absolute w-full h-full backface-hidden text-2xl font-bold text-gray-800 dark:text-white flex items-center justify-center"
+                >
+                  Felici4no
+                </Link>
+                <Link
+                  to="/"
+                  className="absolute w-full h-full backface-hidden text-2xl font-bold text-blue-600 dark:text-blue-400 rotate-x-180 flex items-center justify-center">
+                  Lucas Feliciano
+                </Link>
+              </div>
+            </div>
+
+
+
 
               {/* Desktop Navigation */}
               <div className="hidden md:flex items-center space-x-8">
@@ -108,6 +141,10 @@ function App() {
               <a href="mailto:lucas.feliciano.eng.2003@gmail.com" className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100">
                 <Mail className="w-6 h-6" />
               </a>
+              <a href="https://letterboxd.com/lucas_feliciano/" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100">
+                <LetterboxdIcon className="w-6 h-6" />
+</a>
+
             </div>
             <p className="text-center text-gray-600 dark:text-gray-400 mt-4">
               © 2025 Lucas Feliciano - Felici4no. All rights reserved.

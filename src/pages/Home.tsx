@@ -14,8 +14,9 @@ function Home() {
         Lucas Feliciano
       </h1>
       <p className="text-xl text-gray-600 dark:text-gray-300 mb-8 max-w-2xl">
-      Software Engineering Student at FIAP | Passionate about creating innovative solutions and learning new technologies
+        Software Engineering Student at FIAP | Aspiring Fullstack Developer focused on building complete and scalable applications using modern technologies like JavaScript, Node.js, and TypeScript.
       </p>
+
       <div className="flex gap-4">
         <Link
           to="/projects"
