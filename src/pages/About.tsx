@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { BookOpen, Code, Coffee } from 'lucide-react';
 
 function About() {
