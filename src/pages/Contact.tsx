@@ -1,5 +1,8 @@
 import React from 'react';
 import { Mail, MapPin, Phone, Github, Linkedin } from 'lucide-react';
+import LetterboxdIcon from '../icons/LetterboxdIcon';
+
+
 
 function Contact() {
   return (
@@ -61,6 +64,7 @@ function Contact() {
               >
                 <Github className="w-6 h-6 text-blue-600 dark:text-blue-400" />
               </a>
+              
               <a 
                 href="https://www.linkedin.com/in/lucas-feliciano-software/" 
                 target="_blank" 
@@ -68,6 +72,22 @@ function Contact() {
                 className="bg-blue-100 dark:bg-blue-900/30 p-3 rounded-lg hover:bg-blue-200 dark:hover:bg-blue-900/50 transition-colors"
               >
                 <Linkedin className="w-6 h-6 text-blue-600 dark:text-blue-400" />
+                
+              </a>
+              <a 
+                href="https://github.com/Feli-App-Hub" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="bg-blue-100 dark:bg-blue-900/30 p-3 rounded-lg hover:bg-blue-200 dark:hover:bg-blue-900/50 transition-colors"
+              >
+                <Github className="w-6 h-6 text-blue-600 dark:text-blue-400" />
+              </a>
+              
+              <a href="https://letterboxd.com/lucas_feliciano/" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="bg-blue-100 dark:bg-blue-900/30 p-3 rounded-lg hover:bg-blue-200 dark:hover:bg-blue-900/50 transition-colors">
+                <LetterboxdIcon className="w-6 h-6 text-blue-600 dark:text-blue-400" />
               </a>
             </div>
           </div>

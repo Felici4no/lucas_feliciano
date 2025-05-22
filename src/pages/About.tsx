@@ -8,19 +8,23 @@ function About() {
       
       <div className="bg-white dark:bg-gray-800 rounded-xl shadow-sm p-8 mb-8">
         <p className="text-lg text-gray-700 dark:text-gray-300 mb-6">
-          I'm a Software Engineering student at FIAP, passionate about technology and innovation.
-          My journey in tech began in childhood, when I used .bat scripts to prank classmates — a playful curiosity that evolved into a deep fascination with how things work and how they can be improved.
+          Sou estudante de Engenharia de Software na FIAP, apaixonado por tecnologia e inovação.
+          Minha jornada na tecnologia começou na infância, quando eu usava scripts .bat para pregar peças nos colegas uma curiosidade que evoluiu para uma fascinação sobre como as coisas funcionam e como podem ser melhoradas.
         </p>
         <p className="text-lg text-gray-700 dark:text-gray-300 mb-6">
-          Over the past few years, I've been dedicated to exploring various programming languages and engaging in both academic and personal projects that helped me grow as a professional and as a person. From studying JavaScript, Node.js, and TypeScript to understanding system logic and design, I'm steadily building the skillset to become a fullstack developer capable of creating real impact.
+          Nos últimos anos, venho explorando diversas linguagens de programação e me envolvendo em projetos acadêmicos e pessoais que têm me ajudado a crescer como profissional e como pessoa. Do estudo de JavaScript, Node.js e TypeScript ao entendimento de lógica e design de sistemas, estou construindo aos poucos um conjunto de habilidades para me tornar um desenvolvedor fullstack capaz de gerar impacto real.
         </p>
         <p className="text-lg text-gray-700 dark:text-gray-300 mb-6">
-          Although I'm still building my foundation, I’ve learned that logic is essential and that challenges are opportunities in disguise. I've already faced and overcome several during my time in college, each one shaping my mindset and resilience. I believe that technology, when combined with purpose and collaboration, has the power to transform the world.
+          Um dos projetos que mais me orgulham é o <a href="https://feli-app-hub.github.io/"><strong>FeliAppHub</strong></a>  uma plataforma central que conecta todos os meus aplicativos em um ecossistema interativo. Mais do que um portfólio, é um espaço criativo com propósito, onde cada app explora diferentes aspectos do aprendizado, das emoções, das conexões e da utilidade prática. Com esse hub, quero construir experiências que importam e evoluem junto com cada nova ideia.
+        </p>
+        <p className="text-lg text-gray-700 dark:text-gray-300 mb-6">
+          Embora ainda esteja construindo minha base, aprendi que a lógica é essencial e que os desafios são oportunidades disfarçadas. Já enfrentei e superei vários durante minha trajetória na faculdade, e cada um deles ajudou a moldar minha mentalidade e resiliência. Acredito que a tecnologia, quando combinada com propósito e colaboração, tem o poder de transformar o mundo.
         </p>
         <p className="text-lg text-gray-700 dark:text-gray-300">
-          This is just the beginning of my journey. I’m excited to keep learning, creating, and sharing what I discover along the way — with the hope of contributing to a more innovative, sustainable, and connected future. Let's explore, innovate, and build it together.
+          Esse é apenas o começo da minha jornada. Estou animado para continuar aprendendo, criando e compartilhando o que descubro ao longo do caminho — com a esperança de contribuir para um futuro mais inovador, sustentável e conectado. Vamos explorar, inovar e construir isso juntos.
         </p>
       </div>
+
 
 
       <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">What I Do</h2>

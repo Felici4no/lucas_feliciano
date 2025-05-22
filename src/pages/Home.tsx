@@ -6,7 +6,7 @@ function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-[80vh] text-center">
       <img
-        src="https://media.licdn.com/dms/image/v2/D4D03AQE96D4Gs5ECTw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1721184527351?e=1747267200&v=beta&t=biLDKYJp3t_wDAliI_YS_wRdPAHIiWMiPxd7_g3K2wk"
+        src="https://i.imgur.com/07KxiMR_d.jpeg?maxwidth=520&shape=thumb&fidelity=high"
         alt="Profile"
         className="w-48 h-48 rounded-full mb-8 object-cover shadow-lg"
       />

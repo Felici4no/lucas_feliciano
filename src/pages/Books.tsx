@@ -12,10 +12,15 @@ interface BookType {
 }
 
 function Books() {
-  // Novo conteúdo dentro do array "books" para refletir sua leitura real:
-
   const books: BookType[] = [
     {
+      title: "Mostre sua Arte",
+      author: "Austin Kleon",
+      coverUrl: "https://i.imgur.com/GTtr5Qg.jpeg",
+      rating: 5,
+      completed: true,
+      review: "Transformou minha relação com a exposição do meu trabalho. Compartilhar é parte da criação."
+    },{
       title: "Meditações",
       author: "Marco Aurélio",
       coverUrl: "https://m.media-amazon.com/images/I/612B0id4gNL._AC_UF1000,1000_QL80_.jpg",
@@ -76,10 +81,15 @@ function Books() {
       completed: true,
       completedDate: "",
       review: "Apesar do título provocativo, é um livro profundo sobre valores, limites e a importância de viver de forma autêntica."
+    },{
+      title: "Roube como um Artista",
+      author: "Austin Kleon",
+      coverUrl: "https://i.imgur.com/vvusW0a.jpeg",
+      rating: 5,
+      completed: true,
+      review: "Um manifesto inspirador sobre como a criatividade se constrói a partir de referências. Leitura essencial para qualquer criador."
     }
   ];
-  
-
 
   return (
     <div className="max-w-4xl mx-auto">
